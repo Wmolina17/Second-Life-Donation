@@ -1676,12 +1676,20 @@ a:focus {
         margin-left: 0px;
     }
 }
+@media (max-width: 580px){
+    .causes-item{
+        margin-left: 30% !important;
+    }
+}
 @media (max-width: 530px){
     .causes .causes-text {
        display: none;
     }
     .img-ot{
         height: 10%;
+    }
+    .causes-item{
+        margin-left: 20% !important;
     }
 }
 @media (max-width: 460px){
@@ -1691,4 +1699,5 @@ a:focus {
     .team-item{
         width: 70% !important;
     }
+    
 }
